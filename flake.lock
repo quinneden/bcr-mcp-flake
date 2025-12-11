@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "bazel-central-registry": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1765407300,
+        "narHash": "sha256-gIHiSsADw+RyQzkp+emek8i11ptQd3Y3be4Go274nSY=",
+        "owner": "bazelbuild",
+        "repo": "bazel-central-registry",
+        "rev": "0411fb8e7e428b990b03c993b2acede9bea3dc73",
+        "type": "github"
+      },
+      "original": {
+        "owner": "bazelbuild",
+        "repo": "bazel-central-registry",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1765186076,
+        "narHash": "sha256-hM20uyap1a0M9d344I692r+ik4gTMyj60cQWO+hAYP8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "addf7cf5f383a3101ecfba091b98d0a1263dc9b8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bazel-central-registry": "bazel-central-registry",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
